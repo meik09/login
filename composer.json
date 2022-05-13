@@ -1,0 +1,23 @@
+{
+    "name": "meik/login",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Meik\\Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KiemNV",
+            "email": "kiemnv@kaiyouit.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "laravel/framework": "^8.54",
+        "laravel/passport": "^10.3",
+        "laravel/sanctum": "^2.11",
+        "laravel/socialite": "^5.5"
+    }
+}
